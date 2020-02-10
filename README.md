@@ -4,6 +4,6 @@ tags: []
 
 ---
 
-#Week 5 APIs and beyond.
+# Week 5 APIs and beyond.
 
-weekd 5 in DC and beginning to fetch and work with APIs in the DOM.
+week 5 in DC and beginning to fetch and work with APIs in the DOM.
