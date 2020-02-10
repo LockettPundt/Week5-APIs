@@ -1,0 +1,52 @@
+h1 {
+    font-family: 'IBM Plex Mono', monospace;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.imgWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin: auto;
+    width: 30%;
+    height: auto;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+button {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-family: 'IBM Plex Mono', monospace;
+    width: 30.1%;
+    margin: auto;
+    background-color: aqua;
+    font-size: 20px;
+    
+}
+input {
+    align-self: center;
+    margin: 20px;
+    width: 30%;
+    height: 30px;
+}
+.buttonWrapper {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+p {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'IBM Plex Mono', monospace;
+    padding: 0px 15px 0px 15px;
+}
