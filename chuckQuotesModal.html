@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Chuck Quotes</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./chuckStyleModal.css">
+        <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>CHUCK SAYS!</h1>
+        <section class="imgWrapper">
+            <img src="./chuck.png">
+        </section>
+        <form class="dropdown" id="categorySelect">
+            <button class="buttonStyle" type="submit" id="submitButton">SUBMIT!</button>
+        </form>
+        <div class="modal-overlay">
+            <div class="modal-content">
+                <span id="closeModal" class="close-modal">X</span>
+                <p class="chuckSays">...</p>
+            </div>
+        </div>
+        <script src="./fetchOneModal.js" async defer></script>
+
+    </body>
+</html>
